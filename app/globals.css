@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background {
+  background-image: url("https://www.getonecard.app/assets/apply/bg_web.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+body {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.68px;
+  text-align: left;
+}
+small {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #777 !important;
+}
+
+input,
+input[type="text"] {
+  border-radius: 10px;
+  border: 1px solid #1e252b;
+  outline: none;
+  background-color: #0f171b;
+  padding: 15px 15px;
+  width: 300px;
+  font-weight: 600;
+}
+
+.outerDiv {
+  border-radius: 10px;
+  border: 1px solid #1e252b;
+  outline: none;
+  background-color: #0f171b;
+  padding: 15px 10px;
+  margin: 0 25px;
+}
+
+.confirmBtn {
+  border-radius: 15px;
+  background-color: #0093f7;
+  padding: 15px 15px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-align: center;
+  color: #fff;
+}
+
+.dob {
+  background-color: #0f171b;
+  outline: none;
+}
+
+input[type="radio"] {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.1;
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.5em;
+}
+
+.genderLabel {
+  font-size: 30px;
+  cursor: pointer;
+}
